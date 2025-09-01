@@ -19,9 +19,7 @@ The profit function is:
 
 Constraints:
 1. The production quantity must be nonnegative: x ≥ 0.  
-2. Due to factory capacity, production cannot exceed 40 units: x ≤ 40.  
-3. To satisfy minimum customer demand, production must be at least 5 units: x ≥ 5.  
-4. Since fractional units cannot be produced, x must be an integer.  
+2. Since fractional units cannot be produced, x must be an integer.  
 
 Objective:
 Maximize profit π(x).
@@ -130,5 +128,6 @@ print(f"Runtime: {runtime_seconds:.2f} seconds")
 
 #Divide runtime by 20 to get average time
 print(f"Average runtime: {runtime_seconds/20} seconds")
+
 
 
