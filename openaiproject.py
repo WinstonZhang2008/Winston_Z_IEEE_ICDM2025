@@ -129,5 +129,6 @@ runtime_seconds = end_time - start_time
 print(f"Runtime: {runtime_seconds:.2f} seconds")
 
 #Divide runtime by 20 to get average time
-print(f"Average runtime per questoin: {runtime_seconds/20} seconds")
+print(f"Average runtime: {runtime_seconds/20} seconds")
+
 
