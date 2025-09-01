@@ -125,5 +125,9 @@ for i in range(20):
 end_time = time.time()
 runtime_seconds = end_time - start_time
 
-#Divide runtime by 20 to get average time
+#Total runtime
 print(f"Runtime: {runtime_seconds:.2f} seconds")
+
+#Divide runtime by 20 to get average time
+print(f"Average runtime per questoin: {runtime_seconds/20} seconds")
+
