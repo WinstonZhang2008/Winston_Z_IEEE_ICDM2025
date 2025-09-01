@@ -6,7 +6,7 @@ load_dotenv()
 
 
 
-api_key = os.getenv("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")
+api_key = os.getenv("Your own api key")
 
 mathematical_optmization = """
 You are an expert in mathematical optimization and linear programming. Solve the following LP problem exactly and return only three lines in this exact format (nothing else):
@@ -174,5 +174,6 @@ Goal: Maximize profit.
 
 end_time = time.time()
 runtime_seconds = end_time - start_time
+
 
 print(f"Runtime: {runtime_seconds:.2f} seconds")
